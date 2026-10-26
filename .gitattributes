@@ -1,0 +1,10 @@
+# Normaliza finais de linha: LF no repositório em qualquer SO.
+# Evita oscilação CRLF↔LF (Windows) que quebraria o `prettier --check`.
+* text=auto eol=lf
+
+# Binários — nunca normalizar.
+*.ico binary
+*.png binary
+*.jpg binary
+*.woff binary
+*.woff2 binary
