@@ -1,0 +1,10 @@
+:host {
+  display: block;
+  height: 100%;
+}
+
+/* NÃO sobrescrever `display` aqui: o :host do <svge-editor> já é
+   flex-column e o .canvas-row depende disso (flex:1). Só damos altura. */
+svge-editor {
+  height: 100%;
+}

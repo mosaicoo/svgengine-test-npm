@@ -1,0 +1,17 @@
+/* Tema Material 3 prebuilt — fornece os tokens `--mat-sys-*` que o
+   svg-engine/ui consome. */
+@import '@angular/material/prebuilt-themes/azure-blue.css';
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: Roboto, 'Helvetica Neue', sans-serif;
+}
+
+/* O <svge-editor> é um shell de tela cheia. */
+app-root {
+  display: block;
+  height: 100vh;
+  overflow: hidden;
+}
