@@ -1,10 +1,5 @@
 import { Component } from '@angular/core';
-import {
-  Marquee,
-  RotationPivot,
-  SelectionOverlay,
-  SnapGuides,
-} from '@mosaicoo/svg-engine/edit';
+import { Marquee, RotationPivot, SelectionOverlay, SnapGuides } from '@mosaicoo/svg-engine/edit';
 import { SvgeEditor } from '@mosaicoo/svg-engine/ui';
 
 @Component({

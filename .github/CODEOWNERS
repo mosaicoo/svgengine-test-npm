@@ -1,0 +1,20 @@
+# Code owners for svgengine-test-npm.
+#
+# Every line maps a path pattern to the accounts that must review changes to it.
+# These rules take effect because the `main` ruleset enables
+# "Require review from Code Owners".
+#
+# Single maintainer for now. When the project gains more maintainers, create a
+# GitHub team and replace the individual account below with the team handle.
+
+# Default owner for everything in the repository.
+*                       @mrcavalcanti
+
+# CI/CD and repository automation.
+/.github/               @mrcavalcanti
+
+# Build and dependency manifests.
+/angular.json           @mrcavalcanti
+/package.json           @mrcavalcanti
+/package-lock.json      @mrcavalcanti
+/tsconfig.json          @mrcavalcanti

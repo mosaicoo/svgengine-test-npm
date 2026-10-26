@@ -1,0 +1,6 @@
+# Artefatos e dependências — não formatar
+node_modules/
+dist/
+.angular/
+coverage/
+package-lock.json
